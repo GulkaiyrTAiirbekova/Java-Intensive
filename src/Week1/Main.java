@@ -65,26 +65,36 @@ import java.util.Scanner;
 //    }
 //}
 
+//public class Main{
+//    public static void main(String [] args){
+//        Scanner sc = new Scanner(System.in);
+//        //a ->A
+//        //b -> B
+//        //c->C
+//        //Invalid Character
+//        String s = sc.next();
+//        if (s.equals( "a")){
+//            System.out.println("A");
+//        } else{
+//            if (s.equals ("b")){
+//                System.out.println("B");
+//            } else{
+//                if (s.equals ("c")){
+//                    System.out.println("C");
+//                }else {
+//                    System.out.println("Invalid Character");
+//                }
+//            }
+//        }
+//    }
+//}
 public class Main{
-    public static void main(String [] args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        //a ->A
-        //b -> B
-        //c->C
-        //Invalid Character
-        String s = sc.next();
-        if (s.equals( "a")){
-            System.out.println("A");
-        } else{
-            if (s.equals ("b")){
-                System.out.println("B");
-            } else{
-                if (s.equals ("c")){
-                    System.out.println("C");
-                }else {
-                    System.out.println("Invalid Character");
-                }
-            }
+        int temperature = sc.nextInt();
+        if (temperature> 25){
+            System.out.println("It's a warm day.Stay Hydrated1");
         }
+        System.out.println("Enjoy your day"); //otherwise
     }
 }
