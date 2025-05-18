@@ -88,13 +88,22 @@ import java.util.Scanner;
 //        }
 //    }
 //}
-public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int temperature = sc.nextInt();
-        if (temperature> 25){
-            System.out.println("It's a warm day.Stay Hydrated1");
-        }
-        System.out.println("Enjoy your day"); //otherwise
+//public class Main{
+//    public static void main(String[] args){
+//        Scanner sc = new Scanner(System.in);
+//        int temperature = sc.nextInt();
+//        if (temperature> 25){
+//            System.out.println("It's a warm day.Stay Hydrated1");
+//        }
+//        System.out.println("Enjoy your day"); //otherwise
+//    }
+//}
+import java.time.LocalDate;  // import the LocalDate class
+
+public class Main {
+    public static void main(String[] args) {
+        LocalDate myObj = LocalDate.now();  // Create a date object
+        System.out.println(myObj);  // Display the current date
     }
 }
+
