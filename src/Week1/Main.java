@@ -100,10 +100,18 @@ import java.util.Scanner;
 //}
 import java.time.LocalDate;  // import the LocalDate class
 
+//public class Main {
+//    public static void main(String[] args) {
+//        LocalDate myObj = LocalDate.now();  // Create a date object
+//        System.out.println(myObj);  // Display the current date
+//    }
+//}
+
+import java.time.LocalTime;  // import the LocalTime class
+
 public class Main {
     public static void main(String[] args) {
-        LocalDate myObj = LocalDate.now();  // Create a date object
-        System.out.println(myObj);  // Display the current date
+        LocalTime myObj = LocalTime.now();
+        System.out.println(myObj);
     }
 }
-
