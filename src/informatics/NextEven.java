@@ -2,16 +2,16 @@ package informatics;
 
 import java.util.Scanner;
 
-public class appleDivision2 {
+public class NextEven {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int K = scanner.nextInt();
 
-        int remainder = K % N;
+        int n = scanner.nextInt();
 
-        System.out.println(remainder);
+        int nextEven = n + 2 - (n % 2); // important part
+
+        System.out.println(nextEven);
+
         scanner.close();
     }
 }
-
