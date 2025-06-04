@@ -10,6 +10,10 @@ public class Palindrome {
        for (int i = s.length()-1;i >= 0; --i){
             reversed += s.charAt(i);
        }
-       System.out.println(reversed);
+       if (s.equals (reversed)){
+           System.out.println("Palindrome");
+       } else{
+           System.out.println("Not Palindrome");
+       }
     }
 }
