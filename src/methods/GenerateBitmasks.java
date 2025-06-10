@@ -23,10 +23,14 @@ public class GenerateBitmasks {
         }
         current += "0";
         generate(n-1,current);
+
         current = current.substring(0,current.length()-1);
-        current +="1";
+
+        current +="17";
         generate(n-1,current);
+
         current = current.substring(0,current.length()-1);
+
     }
     public static void main(String [] args){
         Scanner sc =  new Scanner(System.in);

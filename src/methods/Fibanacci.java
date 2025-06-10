@@ -3,7 +3,8 @@ package methods;
 public class Fibanacci {
     //F(n) = F(n-1) + F(n-2)
     //F(1)=1,F(2) =1
-    //1 1 2 3 5 8 13 21
+    //1 1 2 3 5 8 13 (21+ 34)= 55
+    //
     public static int f(int n){
         if (n==1){
             return 1;
