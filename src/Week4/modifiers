@@ -1,0 +1,53 @@
+1)PUBLIC  modifier  are defined for the (accesable, callable, changeable)
+1.  attributes of the classes(public String name;)
+2. attributes on the class themselves(public class Dog{ )
+3.  on the constructors (public Dog(String name){   )
+4. on the methods(public void bark(){  )
+
+
+
+2)private modifier
+    private String name;-> this attribute can be only changed and accessed inside the implementation
+    
+
+
+3)package-private modifier (default)
+4)protected - we can use only in inherited once
+
+key word- final =
+final modifier only apllied for modifier= it's final and won't chnage
+
+static (attribute) its' a field of class itself
+public static count
+->count++ ; will be common for attribute and class(barked and dog)
+
+
+-> method(count)
+System.out.println(dog.count)
+System.out.println(Bobby.getCount)
+   static{
+        count=100;
+   }
+   befoe we writer
+
+
+    quizz
+    ?What is the purpose of the 'static' keyword in Java?
+   = To define class-level members
+
+   2.How many times is a static block executed?
+    = once per class loading
+   3.Which of the following is true about a static method?
+
+   =It can be called without an object
+
+
+//INHERITANCE
+
+OOP- Programming paradigm where everything is defined as an object
+as operations between the objects
+
+
+
+
+
