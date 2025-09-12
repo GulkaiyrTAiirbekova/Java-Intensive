@@ -8,12 +8,11 @@ package neetcode;
 
 
 //1. Brute Force
+//
+//Time & Space Complexity
+//Time complexity: O(n2)
+//Space complexity:O(1)
 
-"""
-Time & Space Complexity
-Time complexity: O(n2)
-Space complexity:O(1)
-"""
 public class hasDuplicate {
     public boolean hasDuplicate(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
