@@ -10,8 +10,8 @@ public class Main {
         Dog buddy = new Dog("Buddy");
         buddy.bark();
 
-        System.out.println(Dog.count);
-        System.out.println(bobby.getCount());
+//        System.out.println(Dog.count);
+//        System.out.println(bobby.getCount());
     }
 }
 //100

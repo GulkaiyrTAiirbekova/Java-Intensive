@@ -59,22 +59,33 @@ package Week4;
 //private modifier
 //package-private modifier
 //USING "COUNT" method
-public class Dog{
-    static{
-        count=100;
-        System.out.println(getCount());
-    }
-    private String name;
-    public static int count;
+//public class Dog{
+//    static{
+//        count=100;
+//        System.out.println(getCount());
+//    }
+//    private String name;
+//    public static int count;
+//
+//    public Dog(String name){
+//        this.name = name;
+//    }
+//    public void bark(){
+//        System.out.println(this.name + " barked");
+//        count++;
+//    }
+//    public static int getCount(){
+//        return count;
+//    }
+//}
 
+//OOP
+public class Dog extends Animal{
     public Dog(String name){
         this.name = name;
     }
     public void bark(){
-        System.out.println(this.name + " barked");
-        count++;
+        System.out.println(this.name + "barked");
     }
-    public static int getCount(){
-        return count;
-    }
+
 }
