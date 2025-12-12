@@ -1,5 +1,27 @@
 package Week1;
 import java.util.Scanner;
+
+public class Main{
+    public static void main(String [] args){
+
+        //Primitive types, implemented into compiler
+        int number = 19;
+        double d = 12.4;
+        char a = 's'; //more memo efficient because it's short
+        boolean right = false;
+
+        String greeting = "Hello Gulkaiyr"; //stored in heap memory
+
+        System.out.println(number);
+        System.out.println(d);
+        System.out.println(a);
+        System.out.println(right);
+        System.out.println(greeting);
+    }
+
+}
+
+
 //
 //public class Main {
 //    public static void main(String[] args){
@@ -98,7 +120,7 @@ import java.util.Scanner;
 //        System.out.println("Enjoy your day"); //otherwise
 //    }
 //}
-import java.time.LocalDate;  // import the LocalDate class
+//import java.time.LocalDate;  // import the LocalDate class
 
 //public class Main {
 //    public static void main(String[] args) {
