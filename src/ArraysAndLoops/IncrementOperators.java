@@ -17,7 +17,9 @@ public class IncrementOperators {
         // Adding a larger value
         //Compound Assignment -> Adds 100 to the current value =200
 
-        i += 100;
+        i += 200;
+        //int i =300;
+        //i += 200 ->i =(int) (i+ 200)=500
 
         System.out.println(i);
 
